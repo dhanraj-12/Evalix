@@ -14,6 +14,7 @@ const responseRoutes = require('./routes/responses');
 const gradingRoutes = require('./routes/grading');
 const userRoutes = require('./routes/users');
 const aiGradingRoutes = require('./routes/aiGrading');
+const translateRoutes = require('./routes/translate');
 
 const app = express();
 
@@ -32,6 +33,7 @@ app.use('/api/responses', responseRoutes);
 app.use('/api/grading', gradingRoutes);
 app.use('/api/users', userRoutes);
 app.use('/api/ai', aiGradingRoutes);
+app.use('/api/translate', translateRoutes);
 
 app.get('/', (req, res) => res.json({ message: 'Evalix API running' }));
 
