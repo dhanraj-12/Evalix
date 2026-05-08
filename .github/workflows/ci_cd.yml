@@ -39,15 +39,18 @@ jobs:
               source $NVM_DIR/nvm.sh
               nvm use node
               npm -v
-              cd Campus_Tales
+              cd Evalix
               git pull origin main
               cd frontend
               npm install
               npm run build
-              sudo rm -rf /var/www/html/*
-              sudo cp -r dist/* /var/www/html/
+              sudo rm -rf /var/www/frontend/*
+              sudo cp -r dist/* /var/www/frontend/
+              cd ../admin
+              sudo rm -rf /var/www/admin/*
+              sudo cp -r dist/* /var/www/admin/
               cd ../backend 
               npm install
               pm2 restart all
 
-          
+            
