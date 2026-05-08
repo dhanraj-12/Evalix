@@ -1,0 +1,8 @@
+{
+  "nav": { "dashboard": "Dashboard", "tests": "Tests", "results": "Results", "logout": "Logout", "login": "Login", "signup": "Sign Up" },
+  "auth": { "email": "Email", "password": "Password", "name": "Full Name", "loginTitle": "Sign In to Evalix", "signupTitle": "Create Account", "loginBtn": "Sign In", "signupBtn": "Sign Up", "noAccount": "Don't have an account?", "hasAccount": "Already have an account?", "loginError": "Invalid credentials", "signupError": "Registration failed" },
+  "dashboard": { "welcome": "Welcome", "recentAttempts": "Recent Attempts", "availableTests": "Available Tests", "noAttempts": "No attempts yet", "noTests": "No tests available", "score": "Score", "status": "Status", "viewResult": "View Result" },
+  "test": { "start": "Start Test", "submit": "Submit Test", "next": "Next", "prev": "Previous", "section": "Section", "question": "Question", "of": "of", "timeLeft": "Time Left", "confirmSubmit": "Are you sure you want to submit?", "selectAnswer": "Select an answer", "typeAnswer": "Type your answer", "enterNumber": "Enter a number", "uploadFile": "Upload File", "takePhoto": "Take Photo", "record": "Record", "minutes": "min", "marks": "marks" },
+  "result": { "title": "Test Results", "totalScore": "Total Score", "autoScore": "Auto Score", "manualScore": "Manual Score", "status": "Status", "submitted": "Submitted", "graded": "Graded", "pending": "Pending Review", "backToDashboard": "Back to Dashboard" },
+  "common": { "loading": "Loading...", "error": "Something went wrong", "retry": "Retry", "language": "Language" }
+}

@@ -1,0 +1,8 @@
+{
+  "nav": { "dashboard": "डॅशबोर्ड", "tests": "चाचण्या", "results": "निकाल", "logout": "बाहेर पडा", "login": "लॉगिन", "signup": "साइन अप" },
+  "auth": { "email": "ईमेल", "password": "पासवर्ड", "name": "पूर्ण नाव", "loginTitle": "Evalix मध्ये साइन इन करा", "signupTitle": "खाते तयार करा", "loginBtn": "साइन इन", "signupBtn": "साइन अप", "noAccount": "खाते नाही?", "hasAccount": "आधीच खाते आहे?", "loginError": "अवैध क्रेडेन्शियल्स", "signupError": "नोंदणी अयशस्वी" },
+  "dashboard": { "welcome": "स्वागत", "recentAttempts": "अलीकडील प्रयत्न", "availableTests": "उपलब्ध चाचण्या", "noAttempts": "अजून प्रयत्न नाहीत", "noTests": "चाचण्या उपलब्ध नाहीत", "score": "गुण", "status": "स्थिती", "viewResult": "निकाल पहा" },
+  "test": { "start": "चाचणी सुरू करा", "submit": "चाचणी सबमिट करा", "next": "पुढे", "prev": "मागे", "section": "विभाग", "question": "प्रश्न", "of": "पैकी", "timeLeft": "उर्वरित वेळ", "confirmSubmit": "तुम्हाला खात्री आहे का?", "selectAnswer": "उत्तर निवडा", "typeAnswer": "तुमचे उत्तर टाइप करा", "enterNumber": "संख्या प्रविष्ट करा", "uploadFile": "फाइल अपलोड करा", "takePhoto": "फोटो घ्या", "record": "रेकॉर्ड", "minutes": "मिनिटे", "marks": "गुण" },
+  "result": { "title": "चाचणी निकाल", "totalScore": "एकूण गुण", "autoScore": "स्वयं गुण", "manualScore": "मॅन्युअल गुण", "status": "स्थिती", "submitted": "सबमिट केले", "graded": "मूल्यांकन केले", "pending": "पुनरावलोकन प्रलंबित", "backToDashboard": "डॅशबोर्डवर परत" },
+  "common": { "loading": "लोड होत आहे...", "error": "काहीतरी चूक झाली", "retry": "पुन्हा प्रयत्न करा", "language": "भाषा" }
+}
